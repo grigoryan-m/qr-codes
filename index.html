@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day #4. QR codes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="panel">
+            <main class="generate">
+                <h3>Generate!</h3>
+                <br/>
+                <input type="text" class="text" placeholder="Enter any text/url...">
+                <button class="create">Generate QR!</button>
+                <h4>Output</h4>
+                <div class="qrcode">
+
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
